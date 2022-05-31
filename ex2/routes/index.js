@@ -2,8 +2,12 @@ var express = require('express');
 var router = express.Router();
 var axios = require('axios');
 const { response } = require('../app');
-//const token = gettoken();
 const token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTRlY2VhNmI1ZDVjMjQ3NmNmMDhiMSIsImxldmVsIjozLjUsImVudGlkYWRlIjoiZW50X0EzRVMiLCJlbWFpbCI6InJwY3cyMDIyQGdtYWlsLmNvbSIsImlhdCI6MTY1NDAxNjcyNSwiZXhwIjoxNjU0MDQ1NTI1fQ.uNrZJ9sED6Hw1Yk3WNrxF68025TNzWxylpG78qDQo_a-6hkeF4wGEglAY3rQmoUzUsZd9WoIuQ1KW8KzntDIg9uo-McdFa9Oj12-k15Ec6jzvBAtX1wO0fuAMlk0JaX07eA9iY1ce7_TagCRwTABlC5f9HgK-dzdN8wpIvxPj6hUALhhvGjzCuSyUq7e0rmvRAiULhxJp23i-WWbU90C7cR5pMXXJkFjHnznI_3QaC2u3U3zJLWEQrtIPt6vp8uL5Eea9ReG5g-y8n_0fQHtvaepz1laaJZzVrKy_pSqVY_zp8H0v0Guivx1OpI-kN8kxYvgqhjVJ11hfXY7OmGrcQ"
+//const token = axios.post("http://clav-api.di.uminho.pt/v2/users/login",{username:"rpcw2022@gmail.com", password:"2022"},
+//  {headers: {
+//    'content-type': 'application/json'
+//  }})
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
