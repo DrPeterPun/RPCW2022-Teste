@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p 
+    a(href='http://localhost:3123/') Inicio
+  table
+    tr
+      th Código
+      th Título
+    each c in classes
+      tr
+        td
+          a(href='http://localhost:3123/classes/'+ c.codigo) #{c.codigo}
+        td= c.titulo

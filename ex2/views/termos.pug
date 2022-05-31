@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p 
+    a(href='http://localhost:3123/') Inicio
+  table
+    tr
+      th Termo
+      th id Classe
+      th Titulo classe
+    each t in termos
+      tr
+        td=t.termo
+        td
+          a(href='http://localhost:3123/classes/'+ t.idClasse) #{t.idClasse}
+        td
+          a(href='http://localhost:3123/classes/'+ t.idClasse) #{t.tituloClasse}
+          
