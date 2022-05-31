@@ -1,4 +1,4 @@
-Para a persistencia de dados no exercicio 1 eu divide o json em dois e retirei caracteres cedilhados e com acentos.
+Para a persistencia de dados no exercicio 1 eu dividi o json em dois(uma para as cidades e outro para ligacoes) e retirei caracteres cedilhados e com acentos.
 Nao consegui importar o json para o mongo db e para nao passar o teste todo a
 tentar descobrir porque decidi desenhar o codigo como se a bd estivesse a funcionar.
 
